@@ -6,6 +6,9 @@ ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 12/17/2018
 ---
+> [!Note]  
+> If running winrm commands in PowerShell you must single quote any attributes with the format @{key=value}
+> EG: winrm set winrm/config/service/auth '@{Certificate="true"}'
 
 # Setting up a Source Initiated Subscription
 
